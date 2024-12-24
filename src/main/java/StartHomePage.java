@@ -16,7 +16,8 @@ public class StartHomePage extends GeneralPage {
     //локатор главной страницы
     private final By mainHeader = By.className("Header_Header__214zg");
     //локатор верхней кнопки Заказать
-    private final By upButtonOrder = By.xpath(".//button[@class='Button_Button__ra12g']");
+    private final By upButtonOrder = By.xpath(".//button[@class='Button_Button__ra12g Button_UltraBig__UU3Lp']");
+
     //локатор нижней кнопки Заказать
     private final By downButtonOrder = By.xpath(".//button[text()='Заказать']");
 
